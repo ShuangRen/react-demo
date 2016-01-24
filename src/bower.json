@@ -1,0 +1,13 @@
+{
+  "name": "ifa_user",
+  "version": "0.1.0",
+  "authors": "yinhuang",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "1.11",
+    "react": "~0.13.3"
+  }
+}

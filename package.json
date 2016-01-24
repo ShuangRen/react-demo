@@ -1,0 +1,26 @@
+{
+  "name": "reactDemo",
+  "file": "jquery",
+  "version": "0.1.0",
+  "description": "reactDemo",
+  "dependencies": "",
+  "hash": "de3a6b04",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "bower": "*",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "*",
+    "jsx-loader": "*",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "*"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  }
+}
